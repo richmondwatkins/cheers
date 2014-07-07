@@ -16,6 +16,8 @@ name.each_char do |char|
 end
 
 puts "Hey," +  " " + name + "," + " " + "what's your birthday?"
+puts "ex: 6th Oct 1990"
+
 birthday = gets.chomp
 date = Date.parse(birthday)
 t = Date.today
