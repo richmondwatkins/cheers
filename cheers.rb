@@ -13,6 +13,7 @@ name.each_char do |char|
   else
     puts "Give me a... #{char}"
   end
+puts "#{name} is just GRAND!"
 end
 
 puts "Hey," +  " " + name + "," + " " + "what's your birthday?"
